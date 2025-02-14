@@ -1,0 +1,288 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15" version="26.0.13">
+  <diagram name="第 1 页" id="E5j9_yOiixS9HCyTkxe0">
+    <mxGraphModel dx="4140" dy="2757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-1" value="最终建议" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="735" y="1099" width="1791" height="272" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-2" value="方案评估" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1648" y="616" width="1526" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-3" value="飞书多维表格可行性分析" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="246" width="1282" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-4" value="TOPSIS方法步骤" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="83" y="246" width="1546" height="803" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-5" value="明确技术细节" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1745" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-6" value="用户需求" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="20" width="1236" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-7" value="初期：静态商业博客、项目介绍、产品展示网站" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="69" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-8" value="后期：动态电商平台扩展" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="81" width="236" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-9" value="技术要求：低成本、敏捷、快速迭代、高时效、高效、灵活性、可重用性、多服务场景扩展" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2416" y="45" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-10" value="技术栈：Astro、Tailwind、Cloudflare、Github、后端CMS、飞书文档/多维表格作为数据库" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2726" y="45" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-11" value="Astro适合静态生成，性能不错" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="69" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-12" value="Tailwind用于快速开发样式" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="365" y="81" width="247" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-13" value="Cloudflare提供托管和边缘计算" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="662" y="69" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-14" value="Github用于版本控制和CI/CD" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="69" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-15" value="后端CMS考虑无头CMS（如Strapi或Contentful），飞书文档/多维表格作数据库的可行性待确认" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="45" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-16" value="确定评价准则：成本、开发速度、灵活性、可扩展性、维护成本、生态支持等" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1326" y="355" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-17" value="列出备选方案：&#xa;        1. Astro + Tailwind + Cloudflare Pages + 飞书多维表格（通过Cloudflare Workers中间层）&#xa;        2. Next.js + Tailwind + Vercel + Strapi + PostgreSQL&#xa;        3. Gatsby + Tailwind + Netlify + Contentful" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="389" y="271" width="260" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-18" value="收集数据：各方案在各准则下的数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="645" y="665" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-19" value="标准化数值、确定权重" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="665" y="842" width="220" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-20" value="确定正负理想解、计算距离、排序" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="645" y="946" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-21" value="飞书提供API，需搭建中间层连接前端和数据，增加开发复杂度" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2388" y="355" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-22" value="用户熟悉飞书，运维成本低" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2955" y="379" width="252" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-23" value="后端CMS可能需定制或结合其他无头CMS，Cloudflare Workers可处理后端逻辑访问飞书API" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1995" y="343" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-24" value="方案1：成本低，开发速度较快，灵活性中等，可扩展性可能较低，维护成本低，生态支持中等" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2303" y="641" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-25" value="方案2：成本稍高，开发速度快，灵活性高，可扩展性好，维护成本中等，生态支持好" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1683" y="641" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-26" value="方案3：成本中等，开发速度中等，灵活性高，可扩展性较好，维护成本中等，生态支持好" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1993" y="641" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-27" value="建议采用方案1，规划后期扩展架构变化，逐步引入强大后端服务，保持组件可重用性，利用Astro岛屿架构添加动态功能，结合Cloudflare服务器less函数处理后端逻辑，飞书作为初期数据库后期迁移" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2046" y="1124" width="260" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.04;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-7" target="sIB9NiVzIRQQutU9KKIJ-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1950" y="221" />
+              <mxPoint x="1010" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.2;entryY=0;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-8" target="sIB9NiVzIRQQutU9KKIJ-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2248" y="221" />
+              <mxPoint x="1212" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.12;exitY=1;entryX=0.23;entryY=0;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-9" target="sIB9NiVzIRQQutU9KKIJ-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2407" y="196" />
+              <mxPoint x="2407" y="221" />
+              <mxPoint x="1232" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.6;entryY=0;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-10" target="sIB9NiVzIRQQutU9KKIJ-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2856" y="221" />
+              <mxPoint x="1536" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.27;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-11" target="sIB9NiVzIRQQutU9KKIJ-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="185" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.4;entryY=0;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-12" target="sIB9NiVzIRQQutU9KKIJ-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="489" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.26;exitY=1;entryX=0.93;entryY=0;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-13" target="sIB9NiVzIRQQutU9KKIJ-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="196" />
+              <mxPoint x="650" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.99;entryY=0;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-14" target="sIB9NiVzIRQQutU9KKIJ-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="221" />
+              <mxPoint x="670" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.1;exitY=1;entryX=1;entryY=0.05;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-15" target="sIB9NiVzIRQQutU9KKIJ-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1455" y="196" />
+              <mxPoint x="1455" y="221" />
+              <mxPoint x="690" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=1;entryX=1;entryY=0.28;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-16" target="sIB9NiVzIRQQutU9KKIJ-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1433" y="566" />
+              <mxPoint x="1433" y="616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.06;entryY=0;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-17" target="sIB9NiVzIRQQutU9KKIJ-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="519" y="616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-18" target="sIB9NiVzIRQQutU9KKIJ-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-19" target="sIB9NiVzIRQQutU9KKIJ-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-15" target="sIB9NiVzIRQQutU9KKIJ-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1673" y="196" />
+              <mxPoint x="1673" y="221" />
+              <mxPoint x="2518" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-9" target="sIB9NiVzIRQQutU9KKIJ-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2691" y="196" />
+              <mxPoint x="2691" y="221" />
+              <mxPoint x="3081" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.94;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-13" target="sIB9NiVzIRQQutU9KKIJ-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="196" />
+              <mxPoint x="1125" y="221" />
+              <mxPoint x="2125" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.73;entryY=0;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-21" target="sIB9NiVzIRQQutU9KKIJ-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2518" y="616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-45" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.36;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-22" target="sIB9NiVzIRQQutU9KKIJ-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3081" y="616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-46" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.21;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-23" target="sIB9NiVzIRQQutU9KKIJ-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2125" y="616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.41;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-16" target="sIB9NiVzIRQQutU9KKIJ-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1453" y="566" />
+              <mxPoint x="1453" y="616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=1;entryX=0;entryY=0.18;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-16" target="sIB9NiVzIRQQutU9KKIJ-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1526" y="566" />
+              <mxPoint x="1526" y="616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.61;exitY=1;entryX=0;entryY=0.34;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-16" target="sIB9NiVzIRQQutU9KKIJ-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1546" y="566" />
+              <mxPoint x="1546" y="616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-50" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.44;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-20" target="sIB9NiVzIRQQutU9KKIJ-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="775" y="1099" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-51" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.19;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-24" target="sIB9NiVzIRQQutU9KKIJ-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2433" y="1099" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-52" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.28;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-25" target="sIB9NiVzIRQQutU9KKIJ-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1813" y="1099" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sIB9NiVzIRQQutU9KKIJ-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.33;entryY=0;rounded=0;" edge="1" parent="1" source="sIB9NiVzIRQQutU9KKIJ-26" target="sIB9NiVzIRQQutU9KKIJ-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2123" y="1099" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
