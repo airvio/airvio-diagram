@@ -1,0 +1,65 @@
+<!-- Knowledge Graph Construction Diagram -->
+<mxGraphModel>
+  <root>
+    <!-- 基础容器定义 -->
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+
+    <!-- 核心概念层 -->
+    <mxCell id="c1" value="命名实体识别" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" parent="1" vertex="1">
+      <mxGeometry x="200" y="50" width="120" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="c2" value="关系抽取" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" parent="1" vertex="1">
+      <mxGeometry x="400" y="50" width="120" height="40" as="geometry"/>
+    </mxCell>
+
+    <!-- 层级构建结构 -->
+    <mxCell id="l1" value="中心节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F8CECC;strokeColor=#B85450;" parent="1" vertex="1">
+      <mxGeometry x="300" y="150" width="80" height="80" as="geometry"/>
+    </mxCell>
+    
+    <!-- 分支节点层 -->
+    <mxCell id="b1" value="分支节点A" style="shape=cylinder3;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#D5E8D4;strokeColor=#82B366;" parent="1" vertex="1">
+      <mxGeometry x="150" y="250" width="80" height="100" as="geometry"/>
+    </mxCell>
+    <mxCell id="b2" value="分支节点B" style="shape=cylinder3;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#D5E8D4;strokeColor=#82B366;" parent="1" vertex="1">
+      <mxGeometry x="350" y="250" width="80" height="100" as="geometry"/>
+    </mxCell>
+
+    <!-- 子主题层 -->
+    <mxCell id="s1" value="子主题A1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;" parent="1" vertex="1">
+      <mxGeometry x="100" y="400" width="100" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="s2" value="子主题B1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;" parent="1" vertex="1">
+      <mxGeometry x="300" y="400" width="100" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- 连接关系 -->
+    <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=classic;endFill=1;" parent="1" source="c1" target="l1" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=classic;endFill=1;" parent="1" source="c2" target="l1" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.25;entryY=0;endArrow=classic;endFill=1;" parent="1" source="l1" target="b1" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.75;entryY=0;endArrow=classic;endFill=1;" parent="1" source="l1" target="b2" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=classic;endFill=1;" parent="1" source="b1" target="s1" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;endArrow=classic;endFill=1;" parent="1" source="b2" target="s2" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+    <!-- 效果标注 -->
+    <mxCell id="eff1" value="结构化存储" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+      <mxGeometry x="50" y="20" width="80" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="eff2" value="高可复用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+      <mxGeometry x="500" y="20" width="80" height="30" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>

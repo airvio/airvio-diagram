@@ -1,0 +1,51 @@
+<mxGraphModel>
+  <root>
+    <!-- 默认画布定义 -->
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    
+    <!-- 颜色编码体系 -->
+    <mxStylesheet>
+      <add as="priorityP0" extend="defaultVertex">
+        <add as="fillColor" value="#FFEBEE"/> <!-- 红色系 -->
+        <add as="strokeColor" value="#FF5252"/>
+      </add>
+      <add as="priorityP1" extend="defaultVertex">
+        <add as="fillColor" value="#FFF3E0"/> <!-- 橙色系 -->
+        <add as="strokeColor" value="#FF9100"/>
+      </add>
+      <add as="priorityP2" extend="defaultVertex">
+        <add as="fillColor" value="#F4FF81"/> <!-- 黄色系 -->
+        <add as="strokeColor" value="#C6DA00"/>
+      </add>
+    </mxStylesheet>
+
+    <!-- 主框架 -->
+    <mxCell id="title" value="LLM驱动的开发流程 MVP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;" parent="1" vertex="1">
+      <mxGeometry x="400" y="20" width="200" height="30"/>
+    </mxCell>
+
+    <!-- 步骤节点 (垂直布局) -->
+    <mxCell id="step1" value="<b>1.需求定型</b><br>KR1: 识别3个关键用户旅程" style="priorityP0;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+      <mxGeometry x="300" y="80" width="200" height="80"/>
+    </mxCell>
+    
+    <mxCell id="step2" value="<b>2.环境构建</b><br>KR2: 构建时间&lt;300秒" style="priorityP0;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+      <mxGeometry x="300" y="180" width="200" height="80"/>
+    </mxCell>
+
+    <!-- 连接线 (避免几何体错误) -->
+    <mxCell id="conn1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="step1" target="step2" edge="1">
+      <mxGeometry relative="1" as="geometry">
+        <mxPoint x="400" y="160" as="targetPoint"/>
+      </mxGeometry>
+    </mxCell>
+
+    <!-- 更多步骤节点和连接线... -->
+
+    <!-- 图例说明 -->
+    <mxCell id="legend" value="<b>颜色编码</b><br>• P0: 紧急任务<br>• P1: 重要任务<br>• P2: 常规任务" style="shape=note;whiteSpace=wrap;html=1;fillColor=#E3F2FD;" parent="1" vertex="1">
+      <mxGeometry x="600" y="80" width="150" height="120"/>
+    </mxCell>
+  </root>
+</mxGraphModel>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-02-17T10:35:00.000Z" agent="ChatGPT" version="16.0.1" type="device">
+  <diagram id="diagram1" name="Call Graph">
+    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100">
+      <root>
+        <!-- Default root cells -->
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Row 1 -->
+        <mxCell id="2" value="mxGraph" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="40" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="mxGraphModel" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="mxEventSource" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D08B30;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="mxEvent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="40" width="100" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 2 -->
+        <mxCell id="6" value="mxConstants" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D3D3D3;strokeColor=#A0A0A0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="mxUtils" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAD1DC;strokeColor=#B85450;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="mxCodec" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5F5E3;strokeColor=#28B463;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="500" y="140" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="mxCell" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#D4AC0D;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="140" width="100" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 3 -->
+        <mxCell id="10" value="mxGeometry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CFE2F3;strokeColor=#6D9EEB;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="240" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="mxCellRenderer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="mxRubberband" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="500" y="240" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="mxKeyHandler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F9E79F;strokeColor=#D4AC0D;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="240" width="100" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Row 4 -->
+        <mxCell id="14" value="mxConnectionHandler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1F2EB;strokeColor=#1ABC9C;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="100" y="340" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="mxGraphHandler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E8DAEF;strokeColor=#8E44AD;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="300" y="340" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="mxPanningHandler" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FDEBD0;strokeColor=#D35400;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="500" y="340" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="mxCellEditor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F2F3F4;strokeColor=#7F8C8D;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="700" y="340" width="100" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Edges (with intermediate mxPoint wrapped in an Array as points) -->
+        <!-- 1. mxGraph (2) → mxEventSource (4) -->
+        <mxCell id="18" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="355" y="60"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 2. mxGraph (2) → mxGraphModel (3) -->
+        <mxCell id="19" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="60"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 3. mxGraph (2) → mxConstants (6) -->
+        <mxCell id="20" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="110"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 4. mxGraph (2) → mxUtils (7) -->
+        <mxCell id="21" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="110"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 5. mxGraph (2) → mxCellRenderer (11) -->
+        <mxCell id="22" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="160"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 6. mxGraph (2) → mxRubberband (12) -->
+        <mxCell id="23" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="160"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 7. mxGraph (2) → mxKeyHandler (13) -->
+        <mxCell id="24" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="160"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 8. mxGraph (2) → mxConnectionHandler (14) -->
+        <mxCell id="25" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="210"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 9. mxGraph (2) → mxGraphHandler (15) -->
+        <mxCell id="26" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="210"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 10. mxGraph (2) → mxPanningHandler (16) -->
+        <mxCell id="27" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="210"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 11. mxGraph (2) → mxCellEditor (17) -->
+        <mxCell id="28" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="210"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 12. mxGraphModel (3) → mxCell (9) -->
+        <mxCell id="29" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="3" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="110"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 13. mxGraphModel (3) → mxGeometry (10) -->
+        <mxCell id="30" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="3" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="160"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 14. mxGraphModel (3) → mxCodec (8) -->
+        <mxCell id="31" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="3" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="110"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 15. mxCellRenderer (11) → mxCell (9) -->
+        <mxCell id="32" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="11" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="210"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 16. mxCellRenderer (11) → mxGeometry (10) -->
+        <mxCell id="33" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="11" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="260"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 17. mxEventSource (4) → mxEvent (5) -->
+        <mxCell id="34" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="60"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 18. mxPanningHandler (16) → mxEvent (5) -->
+        <mxCell id="35" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="16" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="210"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 19. mxConnectionHandler (14) → mxUtils (7) -->
+        <mxCell id="36" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="14" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="260"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 20. mxCellEditor (17) → mxUtils (7) -->
+        <mxCell id="37" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="17" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="260"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <!-- 21. mxGraphHandler (15) → mxEvent (5) -->
+        <mxCell id="38" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="15" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="210"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

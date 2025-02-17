@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="第 1 页" id="q6-jz3cpNNtFhtPnNIZz">
+    <mxGraphModel dx="1925" dy="1067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-1" value="Stage 1: Planning &amp; Analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-2" value="Market Research &amp; Business Analysis&#xa;KR: Produce 3–5 insights; Verification: Approved report" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-3" value="Scope &amp; Requirements Definition&#xa;KR: Complete ≥10-page document; Verification: Stakeholder review" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-4" value="Tech Stack &amp; Integration Planning&#xa;KR: Finalize stack &amp; 4 integrations; Verification: Integration plan document" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-5" value="Stage 2: MVP Development" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-6" value="UI/UX Design&#xa;KR: 90% fidelity on 4 pages; Verification: Design reviews &amp; user tests" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="80" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-7" value="Front-End Development&#xa;KR: 80% responsiveness; Verification: Cross‑browser tests" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="160" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-8" value="Back-End &amp; API Integration&#xa;KR: 90% test coverage; Verification: Automated test reports" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="240" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-9" value="Security &amp; Authentication&#xa;KR: Zero critical vulnerabilities; Verification: Security audits" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="320" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-10" value="DevOps, CI/CD &amp; Containerization&#xa;KR: 100% successful deployments; Verification: CI/CD logs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-11" value="QA &amp; Automated Testing&#xa;KR: Bug rate &lt;5%; Verification: QA reports" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="480" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-12" value="Stage 3: Beta Testing &amp; Launch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-13" value="Beta Feedback &amp; Iteration&#xa;KR: 50–100 beta users; resolve ≥80% issues; Verification: Feedback forms &amp; bug logs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-14" value="Final QA, Performance, CDN &amp; Caching&#xa;KR: Load &lt;3s, uptime ≥95%; Verification: Performance tests &amp; CDN analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-15" value="Launch &amp; Marketing Prep&#xa;KR: 1,000+ sign-ups in first month; Verification: Analytics dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="580" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-16" value="Stage 4: Growth &amp; Scaling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="560" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-17" value="Feature Enhancements &amp; Scalability&#xa;KR: 2–3 features/quarter; scale to 3× traffic; Verification: Release notes &amp; traffic analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="620" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-18" value="Advanced Analytics &amp; Monitoring&#xa;KR: Incident response &lt;1hr; Verification: Incident logs &amp; dashboards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="700" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-19" value="Ongoing Marketing, CRM &amp; Acquisition&#xa;KR: 20% MoM growth; 15% retention increase; Verification: CRM &amp; marketing analytics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="780" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-20" value="Stage 5: Maintenance &amp; Continuous Improvement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="660" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-21" value="Routine Maintenance, SEO &amp; Content Updates&#xa;KR: ≥99% uptime; biweekly updates; Verification: Uptime reports &amp; SEO audits" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-22" value="Customer Support &amp; Accessibility&#xa;KR: ≥90% tickets resolved in 24h; CSAT ≥8/10; Verification: Support ticket logs &amp; surveys" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="800" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KBw-L-7w0X5D0Eesd5tV-23" value="Cost Tracking &amp; ROI Analysis&#xa;KR: Monthly ROI ≥15%; scalability reserve 10–15% budget; Verification: Financial dashboards" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="880" width="320" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

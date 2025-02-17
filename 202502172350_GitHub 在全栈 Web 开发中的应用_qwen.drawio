@@ -1,0 +1,67 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="GitHub 全栈开发启动清单" id="t980Z-tuQask2IQ_aLAx">
+    <mxGraphModel dx="1482" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-1" value="GitHub 全栈开发启动清单" style="fontStyle=1;fontSize=16;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-2" value="阶段 1: 初始化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAF7A6;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-3" value="创建仓库\n配置分支策略" style="text;html=1;fontSize=12;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-4" value="阶段 2: 开发" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFC300;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="80" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-5" value="任务管理 (Issues)\n代码审查 (PR)" style="text;html=1;fontSize=12;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-6" value="阶段 3: 自动化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF5733;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="450" y="80" width="150" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-7" value="CI/CD 流水线\nSecrets 管理" style="text;html=1;fontSize=12;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="100" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-8" value="阶段 4: 部署" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C70039;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="650" y="80" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-9" value="自动部署\n回滚机制" style="text;html=1;fontSize=12;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="100" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-10" value="阶段 5: 监控" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#900C3F;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="850" y="80" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-11" value="监控工具\n告警机制" style="text;html=1;fontSize=12;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="860" y="100" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-12" value="阶段 6: 文档化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#581845;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="80" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-13" value="更新 README\n记录 FAQ" style="text;html=1;fontSize=12;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="100" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="vlwlXb-1BbcTJ_EZQEJ5-2" target="vlwlXb-1BbcTJ_EZQEJ5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="vlwlXb-1BbcTJ_EZQEJ5-4" target="vlwlXb-1BbcTJ_EZQEJ5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="vlwlXb-1BbcTJ_EZQEJ5-6" target="vlwlXb-1BbcTJ_EZQEJ5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="vlwlXb-1BbcTJ_EZQEJ5-8" target="vlwlXb-1BbcTJ_EZQEJ5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="vlwlXb-1BbcTJ_EZQEJ5-10" target="vlwlXb-1BbcTJ_EZQEJ5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlwlXb-1BbcTJ_EZQEJ5-19" value="备注：颜色编码体系\n绿色：初始化\n黄色：开发\n橙色：自动化\n红色：部署\n深红：监控\n紫色：文档化" style="text;html=1;fontSize=12;fillColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="300" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
