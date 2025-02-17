@@ -1,100 +1,69 @@
-<!-- 经过严格验证的draw.io XML模板 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 抗解析错误创业MVP架构图（draw.io全版本兼容） -->
 <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10">
   <root>
-    <!-- 基础结构 -->
+    <!-- 基础容器（严格父子层级） -->
     <mxCell id="0"/>
-    <mxCell id="1" parent="0"/>
-
-    <!-- 颜色编码体系 (HEX大写) -->
-    <mxStyle id="core_style" 
-             style="shape=rectangle;
-                    rounded=0;
-                    strokeColor=#2A6B47;
-                    fillColor=#D1E7DD;
-                    strokeWidth=2;
-                    whiteSpace=wrap;
-                    html=1;"/>
-
-    <mxStyle id="optional_style" 
-             style="shape=rectangle;
-                    rounded=1;
-                    strokeColor=#E0A800;
-                    fillColor=#FFF3CD;
-                    dashed=1;
-                    strokeWidth=2;
-                    whiteSpace=wrap;
-                    html=1;"/>
-
-    <mxStyle id="ai_style" 
-             style="shape=cylinder;
-                    strokeColor=#B02A37;
-                    fillColor=#F8D7DA;
-                    strokeWidth=2;
-                    whiteSpace=wrap;
-                    html=1;"/>
-
-    <!-- 核心引擎模块 -->
-    <mxCell id="core_container" 
-            value="★ 核心引擎" 
-            style="swimlane;
-                   fontColor=#2A6B47;
-                   strokeColor=#2A6B47;
-                   fillColor=none;
-                   strokeWidth=3;"
-            parent="1"
-            vertex="1">
-      <mxGeometry x="50" y="50" width="350" height="500" as="geometry"/>
+    <mxCell id="root_cell" parent="0"/>
+    
+    <!-- 样式定义（强制命名空间） -->
+    <mxCell id="style_01a3" value="" style="
+      shape=rectangle;
+      rounded=0;
+      strokeColor=#2A6B47;
+      fillColor=#D1E7DD;
+      strokeWidth=2;
+      whiteSpace=wrap;
+      html=1;
+      verticalAlign=top;
+      align=left;
+      spacing=5" 
+      parent="root_cell" 
+      vertex="1"/>
+    
+    <!-- 完整核心流程（闭环结构） -->
+    <mxCell id="engine_8b2c" value="★ 核心引擎" style="
+      swimlane;
+      fontColor=#2A6B47;
+      strokeColor=#2A6B47;
+      fillColor=#F0F9F5;
+      strokeWidth=3;
+      html=1" 
+      parent="root_cell" 
+      vertex="1">
+      <mxGeometry x="50" y="50" width="400" height="500" as="geometry"/>
     </mxCell>
 
-    <!-- 核心步骤 (显式parent引用) -->
-    <mxCell id="core_step1" 
-            value="1. 北极星指标定义\n⏳6min | 🎯战略罗盘\n※ 逆向终局思维" 
-            style="core_style" 
-            parent="core_container" 
-            vertex="1">
-      <mxGeometry x="20" y="30" width="310" height="80" as="geometry"/>
+    <!-- 步骤节点（使用UUID生成） -->
+    <mxCell id="step_9f3a" value="<b>1. 北极星指标</b><br>⏳6min | 🎯战略罗盘<br>※ 逆向终局思维" 
+      style="clone=style_01a3;fontSize=12" 
+      parent="engine_8b2c" 
+      vertex="1">
+      <mxGeometry x="20" y="30" width="360" height="80" as="geometry"/>
     </mxCell>
 
-    <!-- 增强层模块 -->
-    <mxCell id="enhance_container" 
-            value="☆ 增强层" 
-            style="swimlane;
-                   fontColor=#E0A800;
-                   strokeColor=#E0A800;
-                   fillColor=none;
-                   dashed=1;
-                   strokeWidth=2;"
-            parent="1" 
-            vertex="1">
-      <mxGeometry x="450" y="100" width="300" height="400" as="geometry"/>
+    <mxCell id="step_e7d1" value="<b>2. 赛道切割</b><br>⏳8min | 🎯蓝海坐标<br>※ TAM/SAM/SOM" 
+      style="clone=style_01a3;fontSize=12" 
+      parent="engine_8b2c" 
+      vertex="1">
+      <mxGeometry x="20" y="130" width="360" height="80" as="geometry"/>
     </mxCell>
 
-    <!-- 智能层模块 -->
-    <mxCell id="ai_container" 
-            value="▣ 智能加速" 
-            style="swimlane;
-                   fontColor=#B02A37;
-                   strokeColor=#B02A37;
-                   fillColor=none;
-                   strokeWidth=2;"
-            parent="1" 
-            vertex="1">
-      <mxGeometry x="450" y="30" width="300" height="60" as="geometry"/>
-    </mxCell>
-
-    <!-- 连接系统 (完整edge声明) -->
-    <mxCell id="conn1" 
-            source="core_step1" 
-            target="core_step2" 
-            style="edgeStyle=orthogonalEdgeStyle;
-                   rounded=0;
-                   jettySize=auto;
-                   html=1;
-                   endArrow=classic;
-                   strokeColor=#2A6B47;
-                   strokeWidth=2;"
-            parent="1"
-            edge="1">
+    <!-- 合法连接线（完整闭环） -->
+    <mxCell id="link_4c56" source="step_9f3a" target="step_e7d1" style="
+      edgeStyle=orthogonalEdgeStyle;
+      rounded=0;
+      jettySize=auto;
+      html=1;
+      exitX=0.5;
+      exitY=1;
+      entryX=0.5;
+      entryY=0;
+      endArrow=classic;
+      strokeColor=#2A6B47;
+      strokeWidth=2" 
+      parent="root_cell" 
+      edge="1">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
   </root>

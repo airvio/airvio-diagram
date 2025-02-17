@@ -1,0 +1,58 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="创业加速关键行动清单" id="GLeT_ijqzqmx_XWn7Moh">
+    <mxGraphModel dx="1482" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-1" value="北极星指标定义" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#228B22;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="50" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-2" value="赛道切割" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#0074D9;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-3" value="价值锥体构建" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#FF4136;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="50" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-4" value="增长飞轮设计" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#FF851B;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="50" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-5" value="经济单元验证" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#AAAAAA;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-6" value="MVP熔断测试" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#85144B;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="150" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-7" value="资本导航图" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#F012BE;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="150" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-8" value="抗脆弱架构" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#3D9970;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="150" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-9" value="组织代码编写" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#7FDBFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-10" value="智能增强层" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#B10DC9;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="l0iqdQCHHVc0DSduHpJy-1" target="l0iqdQCHHVc0DSduHpJy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="l0iqdQCHHVc0DSduHpJy-3" target="l0iqdQCHHVc0DSduHpJy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="l0iqdQCHHVc0DSduHpJy-5" target="l0iqdQCHHVc0DSduHpJy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="l0iqdQCHHVc0DSduHpJy-6" target="l0iqdQCHHVc0DSduHpJy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="l0iqdQCHHVc0DSduHpJy-8" target="l0iqdQCHHVc0DSduHpJy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l0iqdQCHHVc0DSduHpJy-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="l0iqdQCHHVc0DSduHpJy-10" target="l0iqdQCHHVc0DSduHpJy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

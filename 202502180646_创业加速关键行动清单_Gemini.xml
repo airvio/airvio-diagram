@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-02-18T12:00:00.000Z" agent="Mozilla/5.0" version="16.0.0" type="device">
+  <diagram id="diagram1" name="创业加速关键行动清单">
+    <mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- 创业MVP生成行动矩阵（步骤节点） -->
+        <mxCell id="2" value="步骤 1: 北极星指标定义&#xa;目标: 确立核心方向锚点&#xa;时间: 6分钟&#xa;优先级: ★★★★★" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="300" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="步骤 2: 赛道切割&#xa;目标: 定位最佳切入点&#xa;时间: 8分钟&#xa;优先级: ★★★★★" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="300" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="步骤 3: 价值锥体构建&#xa;目标: 打造不可替代性&#xa;时间: 9分钟&#xa;优先级: ★★★★★" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;" vertex="1" parent="1">
+          <mxGeometry x="20" y="220" width="300" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="步骤 4: 增长飞轮设计&#xa;目标: 构建自驱机制&#xa;时间: 7分钟&#xa;优先级: ★★★★☆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;" vertex="1" parent="1">
+          <mxGeometry x="20" y="320" width="300" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="步骤 5: 经济单元验证&#xa;目标: 确保商业可行性&#xa;时间: 10分钟&#xa;优先级: ★★★★★" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;" vertex="1" parent="1">
+          <mxGeometry x="20" y="420" width="300" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="7" value="步骤 6: MVP熔断测试&#xa;目标: 最小化试错成本&#xa;时间: 5分钟&#xa;优先级: ★★★★☆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="300" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="步骤 7: 资本导航图&#xa;目标: 规划融资节奏&#xa;时间: 13分钟&#xa;优先级: ★★★☆☆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE0B2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="620" width="300" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="步骤 8: 抗脆弱架构&#xa;目标: 植入风险免疫基因&#xa;时间: 15分钟&#xa;优先级: ★★☆☆☆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCDD2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="720" width="300" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="步骤 9: 组织代码编写&#xa;目标: 预防团队熵增&#xa;时间: 12分钟&#xa;优先级: ★★☆☆☆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCDD2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="820" width="300" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="步骤 10: 智能增强层&#xa;目标: 部署AI加速器&#xa;时间: 20分钟&#xa;优先级: ★☆☆☆☆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1BEE7;" vertex="1" parent="1">
+          <mxGeometry x="20" y="920" width="300" height="80" as="geometry"/>
+        </mxCell>
+        <!-- 方案健康度监测逻辑（Mermaid图节点） -->
+        <mxCell id="101" value="北极星指标" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#228B22;strokeWidth=3;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="50" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="102" value="价值锥体" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="50" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="103" value="单元经济" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="104" value="MVP验证" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B6B;strokeWidth=3;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="150" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="105" value="抗脆弱架构" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="106" value="智能增强" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <!-- 方案健康度监测逻辑（Mermaid图边） -->
+        <mxCell id="201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitPerimeter=1;entryX=0;entryY=0.5;entryPerimeter=1;" edge="1" source="101" target="102" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitPerimeter=1;entryX=0;entryY=0.5;entryPerimeter=1;" edge="1" source="102" target="103" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;exitPerimeter=1;entryX=1;entryY=0.5;entryPerimeter=1;" edge="1" source="103" target="104" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;exitPerimeter=1;entryX=1;entryY=0.5;entryPerimeter=1;" edge="1" source="104" target="101" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;entryPerimeter=1;" edge="1" source="105" target="103" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;entryPerimeter=1;" edge="1" source="106" target="104" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

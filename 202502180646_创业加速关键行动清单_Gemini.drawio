@@ -1,0 +1,76 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="创业加速关键行动清单" id="AG8bot56uXBpGtL2ezqc">
+    <mxGraphModel dx="2117" dy="1254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-1" value="步骤 1: 北极星指标定义&#xa;目标: 确立核心方向锚点&#xa;时间: 6分钟&#xa;优先级: ★★★★★" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-2" value="步骤 2: 赛道切割&#xa;目标: 定位最佳切入点&#xa;时间: 8分钟&#xa;优先级: ★★★★★" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-3" value="步骤 3: 价值锥体构建&#xa;目标: 打造不可替代性&#xa;时间: 9分钟&#xa;优先级: ★★★★★" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;" vertex="1" parent="1">
+          <mxGeometry x="20" y="220" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-4" value="步骤 4: 增长飞轮设计&#xa;目标: 构建自驱机制&#xa;时间: 7分钟&#xa;优先级: ★★★★☆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;" vertex="1" parent="1">
+          <mxGeometry x="20" y="320" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-5" value="步骤 5: 经济单元验证&#xa;目标: 确保商业可行性&#xa;时间: 10分钟&#xa;优先级: ★★★★★" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;" vertex="1" parent="1">
+          <mxGeometry x="20" y="420" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-6" value="步骤 6: MVP熔断测试&#xa;目标: 最小化试错成本&#xa;时间: 5分钟&#xa;优先级: ★★★★☆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-7" value="步骤 7: 资本导航图&#xa;目标: 规划融资节奏&#xa;时间: 13分钟&#xa;优先级: ★★★☆☆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE0B2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="620" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-8" value="步骤 8: 抗脆弱架构&#xa;目标: 植入风险免疫基因&#xa;时间: 15分钟&#xa;优先级: ★★☆☆☆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCDD2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="720" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-9" value="步骤 9: 组织代码编写&#xa;目标: 预防团队熵增&#xa;时间: 12分钟&#xa;优先级: ★★☆☆☆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCDD2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="820" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-10" value="步骤 10: 智能增强层&#xa;目标: 部署AI加速器&#xa;时间: 20分钟&#xa;优先级: ★☆☆☆☆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1BEE7;" vertex="1" parent="1">
+          <mxGeometry x="20" y="920" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-11" value="北极星指标" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#228B22;strokeWidth=3;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-12" value="价值锥体" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-13" value="单元经济" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-14" value="MVP验证" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF6B6B;strokeWidth=3;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-15" value="抗脆弱架构" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-16" value="智能增强" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitPerimeter=1;entryX=0;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="tAfaPd5YCo6GoBux5_PN-11" target="tAfaPd5YCo6GoBux5_PN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitPerimeter=1;entryX=0;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="tAfaPd5YCo6GoBux5_PN-12" target="tAfaPd5YCo6GoBux5_PN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;exitPerimeter=1;entryX=1;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="tAfaPd5YCo6GoBux5_PN-13" target="tAfaPd5YCo6GoBux5_PN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;exitPerimeter=1;entryX=1;entryY=0.5;entryPerimeter=1;" edge="1" parent="1" source="tAfaPd5YCo6GoBux5_PN-14" target="tAfaPd5YCo6GoBux5_PN-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;entryPerimeter=1;" edge="1" parent="1" source="tAfaPd5YCo6GoBux5_PN-15" target="tAfaPd5YCo6GoBux5_PN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tAfaPd5YCo6GoBux5_PN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitPerimeter=1;entryX=0.5;entryY=0;entryPerimeter=1;" edge="1" parent="1" source="tAfaPd5YCo6GoBux5_PN-16" target="tAfaPd5YCo6GoBux5_PN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

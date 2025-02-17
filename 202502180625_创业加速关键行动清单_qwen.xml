@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" modified="2023-10-10T12:00:00.000Z">
+  <diagram name="创业加速关键行动清单" id="startup-acceleration">
+    <mxGraphModel dx="1426" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <!-- 背景 -->
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- 北极星指标定义 -->
+        <mxCell id="n1" value="北极星指标定义" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#228B22;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="50" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 赛道切割 -->
+        <mxCell id="n2" value="赛道切割" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#0074D9;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 价值锥体构建 -->
+        <mxCell id="n3" value="价值锥体构建" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#FF4136;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="50" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 增长飞轮设计 -->
+        <mxCell id="n4" value="增长飞轮设计" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#FF851B;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="50" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 经济单元验证 -->
+        <mxCell id="n5" value="经济单元验证" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#AAAAAA;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- MVP熔断测试 -->
+        <mxCell id="n6" value="MVP熔断测试" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#85144B;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="150" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 资本导航图 -->
+        <mxCell id="n7" value="资本导航图" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#F012BE;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="500" y="150" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 抗脆弱架构 -->
+        <mxCell id="n8" value="抗脆弱架构" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#3D9970;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="150" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 组织代码编写 -->
+        <mxCell id="n9" value="组织代码编写" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#7FDBFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 智能增强层 -->
+        <mxCell id="n10" value="智能增强层" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#FFFFFF;fillColor=#B10DC9;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="150" height="50" as="geometry" />
+        </mxCell>
+
+        <!-- 连接线：北极星指标 -> 价值锥体 -->
+        <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n1" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 连接线：价值锥体 -> 单元经济 -->
+        <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n3" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 连接线：单元经济 -> MVP验证 -->
+        <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n5" target="n6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 连接线：MVP验证 -> 北极星指标 -->
+        <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n6" target="n1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 连接线：抗脆弱架构 -> 单元经济 -->
+        <mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="n8" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- 连接线：智能增强层 -> MVP验证 -->
+        <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="n10" target="n6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
